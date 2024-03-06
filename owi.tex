@@ -1,5 +1,6 @@
 \documentclass{article}
-\usepackage{graphicx} % Required for inserting images
+\usepackage{graphicx}
+\usepackage{transparent}
 \usepackage[T1]{fontenc}
 \usepackage[a4paper, total={15cm, 24cm}]{geometry}
 \usepackage[polish]{babel}
@@ -15,6 +16,13 @@
 \usepackage[]{titlesec}
 \usepackage[p]{scholax}
 
+\newcommand{\watermark}{
+  \begin{figure}[b]
+    \transparent{0.4} \includegraphics*[]{mlecz}
+    \centering
+  \end{figure}
+}
+
 \setcounter{secnumdepth}{2}
 
 \renewcommand{\thesection}{\arabic{section}}
@@ -28,8 +36,10 @@
 \begin{document}
 
 \maketitle
+\watermark
 
 \tableofcontents
+\watermark
 
 \section{Prawo i jego źródła (28.02)}
 
