@@ -1,0 +1,9 @@
+/.auctex-auto/
+/owi.aux
+/owi.fdb_latexmk
+*.fls
+/*.log
+*.out
+*.pdf
+/owi.synctex.gz
+/owi.toc
