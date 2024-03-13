@@ -7,3 +7,5 @@
 *.pdf
 /owi.synctex.gz
 /owi.toc
+*.png
+*.jpg
