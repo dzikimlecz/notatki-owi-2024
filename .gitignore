@@ -4,8 +4,6 @@
 *.fls
 /*.log
 *.out
-*.pdf
 /owi.synctex.gz
 /owi.toc
-*.png
-*.jpg
+_region_.tex
